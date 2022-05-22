@@ -27,7 +27,7 @@ export default function Layout({ children }) {
       <header className={styles.header}>
         <nav className={styles.navbar}>
           {/*<a className={styles.navlogo}>[BrandLogo]</a>*/}
-          <div className={"styles.navlogo"}>
+          <div className={styles.navlogo}>
             <Link href="/">
               <a>
                 <Image src="/color_logo.png" width={75} height={75} />
