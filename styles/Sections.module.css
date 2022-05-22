@@ -1,0 +1,258 @@
+@font-face {
+  font-family: "wof_body";
+  src: url("../fonts/body.woff2");
+}
+
+.container {
+  display: block;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  margin-top: 5rem;
+}
+
+.title {
+  /*width: 100%;
+  border: 5px solid black;
+  font-family: "wof";
+  font-weight: lighter;*/
+  margin-bottom: 4rem;
+  margin-left: 9rem;
+  line-height: 1.15;
+  /*border: 5px solid black;*/
+  width: 26%;
+}
+
+.title span {
+  font-family: "wof";
+  font-style: normal;
+  font-size: 2.4rem;
+  font-weight: lighter;
+  letter-spacing: 0.03em;
+}
+
+.quick_sum {
+  width: 30%;
+  /*border: 5px solid black;*/
+  /*font-family: "wof";*/
+  font-weight: lighter;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background: #f1f1f1;
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 3rem;
+  margin-bottom: 3rem;
+  width: fit-content;
+}
+
+.container2 {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  margin: 3rem 3rem;
+  width: fit-content;
+}
+
+.paragraph_body_L {
+  margin-left: 1rem;
+  padding-left: 3rem;
+  width: 30rem;
+  text-align: justify;
+  text-justify: inter-word;
+  align-self: center;
+  transition: margin-left 0.5s ease-out;
+}
+
+.paragraph_body_R {
+  margin-right: 1rem;
+  padding-right: 3rem;
+  width: 30rem;
+  text-align: justify;
+  text-justify: inter-word;
+  align-self: center;
+  transition: margin-right 0.5s ease-out;
+}
+
+.list {
+  font-family: "body_wof";
+  font-weight: bolder;
+}
+.list li {
+  display: list-item;
+  list-style-type: circle;
+  font-weight: lighter;
+  /*list-style-position: ;*/
+}
+
+.subtitle {
+  padding: 2rem 0;
+  font-size: 3rem;
+  white-space: nowrap;
+  font-family: "body_wof";
+}
+
+.paragraph_body h2 {
+  margin-bottom: 1rem;
+}
+
+.page_image {
+  margin: 3rem;
+}
+
+.banner {
+  position: absolute;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(181, 210, 226);
+  width: 100%;
+  bottom: 0;
+  object-fit: cover;
+  /*transition: height 0.5s ease-out;*/
+  transform: translateY(3rem);
+  transition: transform 0.5s ease-in-out;
+}
+
+.banner span {
+  color: black;
+  padding-left: 2rem;
+}
+
+.page_image_container {
+  position: relative;
+  width: 960px;
+  height: 540px;
+  overflow: hidden;
+}
+
+.page_image2 {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+@media (hover: hover) {
+  .container1:hover .banner {
+    transform: translateY(0);
+  }
+  .container1:hover .paragraph_body_L {
+    margin-left: 3rem;
+  }
+
+  .container2:hover .banner {
+    transform: translateY(0);
+  }
+  .container2:hover .paragraph_body_R {
+    margin-right: 3rem;
+  }
+}
+
+@media (hover: none) {
+  .container1:hover .banner {
+    pointer-events: none;
+  }
+  .container1:hover .paragraph_body_L {
+    pointer-events: none;
+  }
+
+  .container2:hover .banner {
+    pointer-events: none;
+  }
+  .container2:hover .paragraph_body_R {
+    pointer-events: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container1:hover .banner {
+    transform: translateY(3rem);
+  }
+  .container1:hover .paragraph_body_L {
+    margin-left: 0;
+  }
+
+  .container2:hover .banner {
+    transform: translateY(3rem);
+  }
+  .container2:hover .paragraph_body_R {
+    margin-right: 0;
+  }
+
+  .title {
+    margin: 0;
+    margin-bottom: 4rem;
+    line-height: 0.5;
+    width: 40%;
+  }
+
+  .quick_sum {
+    display: flex;
+    width: auto;
+  }
+  .container1 {
+    width: auto;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .container2 {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  .page_image_container {
+    width: 100%;
+    height: 40vh;
+    order: 1;
+    left: 0;
+  }
+
+  .paragraph_body_L {
+    order: 2;
+    margin: 0;
+    padding: 0 1.5rem;
+    width: none;
+    transition: none;
+  }
+
+  .paragraph_body_R {
+    order: 2;
+    margin: 0;
+    padding: 0 1.5rem;
+    width: none;
+    transition: none;
+  }
+
+  .banner {
+  }
+
+  .title span {
+    font-family: "wof";
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: lighter;
+    letter-spacing: 0.03em;
+  }
+
+  .main {
+  }
+}
