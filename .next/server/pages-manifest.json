@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/mobile_development": "pages/mobile_development.js",
-  "/programming_languages": "pages/programming_languages.js"
+  "/": "pages/index.js",
+  "/mobile_development": "pages/mobile_development.js"
 }
