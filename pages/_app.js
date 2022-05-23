@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import Layout from "../components/layout";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
+
 function MyApp({ Component, pageProps, router }) {
   return (
     <Layout>
