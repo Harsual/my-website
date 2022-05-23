@@ -19,7 +19,7 @@ body * {
   /*font-size: 62.5%;*/
 }
 
-@media screen and (orientation: landscape) and (max-width: 768px) {
+@media screen and (orientation: landscape) and (max-width: 1000px) {
   html {
     /* Rotate the content container */
     transform: rotate(-90deg);
