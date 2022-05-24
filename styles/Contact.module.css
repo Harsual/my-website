@@ -64,7 +64,7 @@
   margin: 0rem 6rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .inquiries {
     display: block;
   }

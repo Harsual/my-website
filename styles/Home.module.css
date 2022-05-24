@@ -166,7 +166,7 @@
   background-image: url("/green_trees.jpg");
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .container{
     margin: 0 0;
   }

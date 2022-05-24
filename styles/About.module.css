@@ -49,7 +49,7 @@
   letter-spacing: 0.03em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .about_container {
     padding: 0;
   }

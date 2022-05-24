@@ -176,7 +176,7 @@
     pointer-events: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   /*
   .container1:hover .banner {
     transform: translateY(3rem);
