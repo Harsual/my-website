@@ -154,18 +154,20 @@ export default function Layout({ children }) {
         </div>
         <div className={styles.footer_container1}>
           <div className={styles.ftd}>
-            <text>
-              Working with talented and driven people is my passion<br></br>
-              I'd love to build something great together.<br></br>
+            <text className={styles.ftd_text}>
+              Working with hard-working indivuduals motives me to succeed
+              <br></br>
             </text>
-
+            <text className={styles.ftd_text}>
+              I'd love to build something great together.{" "}
+            </text>
+            <br></br>
             <Link href="/contact" scroll={false}>
               <a>
                 <br></br>
                 <text className={styles.work_link}>Work with me </text>
               </a>
             </Link>
-
             <div className={styles.contact}>
               <div className={styles.info}>
                 <div className={styles.info_container}>

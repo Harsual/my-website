@@ -224,6 +224,10 @@
     font-size: 2rem;
   }
 
+  .list {
+    padding-left: 3rem;
+  }
+
   .container2 {
     width: 100%;
     flex-direction: column;
@@ -233,7 +237,7 @@
 
   .page_image_container {
     width: 100%;
-    height: 40vh;
+    height: 40vw;
     order: 1;
     left: 0;
   }

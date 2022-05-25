@@ -163,6 +163,8 @@
   width: 100%;
 }
 
+
+
 .logo {
   display: inline;
   margin-top: 6rem;
@@ -222,6 +224,14 @@
     height: auto;
     margin: 2rem 0;
     justify-content: center;
+  }
+
+  .ftd_text{
+    margin-left: 2rem;
+  }
+
+  .work_link {
+    padding-left: 2rem;
   }
 
   .linkbox {

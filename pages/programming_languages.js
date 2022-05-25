@@ -88,6 +88,7 @@ export default function education() {
                 objectFit="cover"
                 placeholder="blur"
                 blurDataURL="/photos/java.png"
+                quality={40}
                 className={styles.page_image2}
               ></Image>
               <div className={styles.banner}>
@@ -110,6 +111,7 @@ export default function education() {
                 objectFit="contain"
                 placeholder="blur"
                 blurDataURL="/photos/javascript.png"
+                quality={30}
                 className={styles.page_image2}
               ></Image>
               <div className={styles.banner}>

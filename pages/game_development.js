@@ -85,6 +85,7 @@ export default function education() {
               objectFit="cover"
               placeholder="blur"
               blurDataURL="/photos/unreal.jpg"
+              quality={40}
               className={styles.page_image2}
             ></Image>
             <div className={styles.banner}>

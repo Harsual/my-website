@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/about.js"
     ],
-    "/education": [
+    "/game_development": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/education.js"
+      "static/chunks/pages/game_development.js"
     ]
   },
   "ampFirstPages": []

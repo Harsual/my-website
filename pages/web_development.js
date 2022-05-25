@@ -28,6 +28,7 @@ export default function web_development() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="blur"
+                quality={25}
                 blurDataURL="/photos/nextjs-logo.jpg"
                 className={styles.page_image2}
               ></Image>
