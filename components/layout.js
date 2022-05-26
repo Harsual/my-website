@@ -155,7 +155,7 @@ export default function Layout({ children }) {
         <div className={styles.footer_container1}>
           <div className={styles.ftd}>
             <text className={styles.ftd_text}>
-              Working with hard-working indivuduals motives me to succeed
+              Working with motivated and hard working individuals is my passion
               <br></br>
             </text>
             <text className={styles.ftd_text}>
