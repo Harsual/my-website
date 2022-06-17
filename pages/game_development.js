@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Sections.module.css";
 import router, { useRouter } from "next/router";
 import Image from "next/image";
+import unreal from "../public/photos/unreal.jpg";
 
 export default function education() {
   /*const pathname = window.location.pathname;*/
@@ -80,7 +81,7 @@ export default function education() {
           </div>
           <div className={styles.page_image_container}>
             <Image
-              src="/photos/unreal.jpg"
+              src={unreal}
               layout="fill"
               objectFit="cover"
               placeholder="blur"
