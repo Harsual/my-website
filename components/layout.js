@@ -159,7 +159,7 @@ export default function Layout({ children }) {
               <br></br>
             </text>
             <text className={styles.ftd_text}>
-              I'd love to build something great together.{" "}
+              Id love to build something great together.{" "}
             </text>
             <br></br>
             <Link href="/contact" scroll={false}>
