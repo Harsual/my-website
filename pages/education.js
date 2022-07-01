@@ -46,7 +46,7 @@ export default function education() {
           <div className={styles.paragraph_body_L}>
             <h2 className={styles.subtitle}>Memorial University</h2>
             <ul className={styles.list}>
-              <li>Master's in Computer science</li>
+              <li>Masters in Computer science</li>
               <li>Attending currently</li>
             </ul>
             {/* <p>

@@ -70,14 +70,14 @@ export default function about() {
         </div>
         <div className={styles.about_paragraph}>
           <p>
-            Hello, I’m Osama Nori! I’m a computer science graduate student, web
+            Hello, Im Osama Nori! Im a computer science graduate student, web
             developer, and an all-round programmer looking to break into the
             software development sector. Through my education and building
             personal projects, I have experience with multiple programming
             languages and frameworks. I thoroughly enjoy building apps and
-            websites that tackle challenges faced in everyday life. I’ve worked
+            websites that tackle challenges faced in everyday life. Ive worked
             as a web-developer and interned as an android app developer after
-            getting my bachelor’s degree in computer engineering. While my
+            getting my bachelors degree in computer engineering. While my
             professional experience is limited, I have developed key skills and
             attributes that will ensure my development and success.
           </p>
