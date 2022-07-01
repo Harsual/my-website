@@ -94,7 +94,7 @@ export default function Contact() {
     <div>
       <div className={styles.header}>
         Get in touch.<br></br>
-        Let's work together.
+        Lets work together.
       </div>
       <div className={styles.inquiries}>
         <div className={styles.description}>
