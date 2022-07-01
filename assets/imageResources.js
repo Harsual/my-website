@@ -1,0 +1,26 @@
+/*
+    logo: 
+    white_logo:
+    adobe:
+    ankara_university:
+    c_languages:
+    game_develeopment:
+    java:
+    javascript:
+    lan_streaming:
+    language_skills:
+    languages:
+    mobile_development:
+    mun:
+    nextjs_logo:
+    office:
+    other_skills:
+    programming_languages:
+    progress_app:
+    twitter:
+    unity:
+    unreal:
+    web_development:
+    website_image:
+    wordpress:
+    */
