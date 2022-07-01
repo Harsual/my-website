@@ -32,11 +32,11 @@ export default function education() {
         >
           <div className={styles.page_image_container}>
             <Image
-              src="/photos/MUN.jpg"
+              src="/photos/mun.jpg"
               layout="fill"
               objectFit="cover"
               placeholder="blur"
-              blurDataURL="/photos/MUN.jpg"
+              blurDataURL="/photos/mun.jpg"
               className={styles.page_image2}
             ></Image>
             <div className={styles.banner}>

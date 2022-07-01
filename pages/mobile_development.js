@@ -27,11 +27,11 @@ export default function education() {
           <div className={styles.container1}>
             <div className={styles.page_image_container}>
               <Image
-                src="/photos/Progress_App.jpg"
+                src="/photos/progress_App.jpg"
                 layout="fill"
                 objectFit="cover"
                 placeholder="blur"
-                blurDataURL="/photos/Progress_App.jpg"
+                blurDataURL="/photos/progress_App.jpg"
                 className={styles.page_image2}
               ></Image>
               <div className={styles.banner}>
@@ -81,11 +81,11 @@ export default function education() {
             </div>
             <div className={styles.page_image_container}>
               <Image
-                src="/photos/LAN_streaming.png"
+                src="/photos/lan_streaming.png"
                 layout="fill"
                 objectFit="cover"
                 placeholder="blur"
-                blurDataURL="/photos/LAN_streaming.png"
+                blurDataURL="/photos/lan_streaming.png"
                 className={styles.page_image2}
               ></Image>
               <div className={styles.banner}>

@@ -28,11 +28,11 @@ export default function education() {
           <div className={styles.container1}>
             <div className={styles.page_image_container}>
               <Image
-                src="/photos/C_languages1.jpg"
+                src="/photos/c_languages1.jpg"
                 layout="fill"
                 objectFit="contain"
                 placeholder="blur"
-                blurDataURL="/photos/C_language1.jpg"
+                blurDataURL="/photos/c_language1.jpg"
                 className={styles.page_image2}
               ></Image>
               <div className={styles.banner}>
@@ -106,7 +106,7 @@ export default function education() {
           <div className={styles.container1}>
             <div className={styles.page_image_container}>
               <Image
-                src="/photos/javascript.png"
+                src="/photos/javascript.jpg"
                 layout="fill"
                 objectFit="contain"
                 placeholder="blur"

@@ -81,7 +81,7 @@ export default function education() {
           </div>
           <div className={styles.page_image_container}>
             <Image
-              src={unreal}
+              src="/photos/unreal.jpg"
               layout="fill"
               objectFit="cover"
               placeholder="blur"
