@@ -5,7 +5,7 @@ import Image from "next/image";
 import axios from "axios";
 import { useState } from "react";
 
-export default function contact() {
+export default function Contact() {
   const [formStatus, setFormStatus] = useState(false);
   const [query, setQuery] = useState({
     name: "",
