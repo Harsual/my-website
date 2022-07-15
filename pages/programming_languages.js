@@ -112,7 +112,7 @@ export default function education() {
             <div className={styles.page_image_container}>
               <Image
                 alt=""
-                src="/photos/javascript.jpg"
+                src="/photos/javascript.png"
                 layout="fill"
                 objectFit="contain"
                 placeholder="blur"
