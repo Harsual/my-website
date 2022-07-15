@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Sections.module.css";
 import router, { useRouter } from "next/router";
 import Image from "next/image";
-import unreal from "../public/photos/unreal.jpg";
+//import unreal from "../public/photos/unreal.jpg";
 
 export default function education() {
   /*const pathname = window.location.pathname;*/
