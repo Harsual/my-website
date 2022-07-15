@@ -21,6 +21,7 @@ export default function education() {
       </div>
       <div className={styles.main}>
         <a
+          rel="noopener noreferrer"
           href="https://github.com/Harsual"
           target="_blank"
           className={styles.container1}
@@ -28,6 +29,7 @@ export default function education() {
           <div className={styles.container1}>
             <div className={styles.page_image_container}>
               <Image
+                alt=""
                 src="/photos/c_languages1.jpg"
                 layout="fill"
                 objectFit="contain"
@@ -57,6 +59,7 @@ export default function education() {
           </div>
         </a>
         <a
+          rel="noopener noreferrer"
           href="https://github.com/Harsual"
           target="_blank"
           className={styles.container2}
@@ -83,6 +86,7 @@ export default function education() {
             </div>
             <div className={styles.page_image_container}>
               <Image
+                alt=""
                 src="/photos/java.png"
                 layout="fill"
                 objectFit="cover"
@@ -99,6 +103,7 @@ export default function education() {
         </a>
 
         <a
+          rel="noopener noreferrer"
           href="https://github.com/Harsual"
           target="_blank"
           className={styles.container1}
@@ -106,6 +111,7 @@ export default function education() {
           <div className={styles.container1}>
             <div className={styles.page_image_container}>
               <Image
+                alt=""
                 src="/photos/javascript.jpg"
                 layout="fill"
                 objectFit="contain"

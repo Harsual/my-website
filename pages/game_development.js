@@ -22,12 +22,14 @@ export default function education() {
       </div>
       <div className={styles.main}>
         <a
+          rel="noopener noreferrer"
           href="https://play.google.com/store/apps/details?id=com.OsamaNori.Continuous&hl=us&gl=US"
           target="_blank"
           className={styles.container1}
         >
           <div className={styles.page_image_container}>
             <Image
+              alt=""
               src="/photos/unity.png"
               layout="fill"
               objectFit="cover"
@@ -59,6 +61,7 @@ export default function education() {
         </a>
 
         <a
+          rel="noopener noreferrer"
           href="https://github.com/Harsual/ThirdPerson-4.23"
           target="_blank"
           className={styles.container2}

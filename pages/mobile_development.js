@@ -20,6 +20,7 @@ export default function education() {
       </div>
       <div className={styles.main}>
         <a
+          rel="noopener noreferrer"
           href="https://github.com/Harsual/TaskReview"
           target="_blank"
           className={styles.container1}
@@ -27,6 +28,7 @@ export default function education() {
           <div className={styles.container1}>
             <div className={styles.page_image_container}>
               <Image
+                alt=""
                 src="/photos/progress_App.jpg"
                 layout="fill"
                 objectFit="cover"
@@ -55,6 +57,7 @@ export default function education() {
         </a>
 
         <a
+          rel="noopener noreferrer"
           href="https://github.com/Harsual/Streaming-Android-Application"
           target="_blank"
           className={styles.container2}
@@ -81,6 +84,7 @@ export default function education() {
             </div>
             <div className={styles.page_image_container}>
               <Image
+                alt=""
                 src="/photos/lan_streaming.png"
                 layout="fill"
                 objectFit="cover"

@@ -30,7 +30,7 @@ export default function Layout({ children }) {
           <div className={styles.navlogo}>
             <Link href="/">
               <a>
-                <Image src="/color_logo.png" width={75} height={75} />
+                <Image src="/color_logo.png" alt="" width={75} height={75} />
               </a>
             </Link>
           </div>
@@ -148,7 +148,7 @@ export default function Layout({ children }) {
         <div className={styles.logo}>
           <Link href="/" scroll={false}>
             <a>
-              <Image src="/White_logo.png" width={75} height={75} />
+              <Image src="/White_logo.png" alt="" width={75} height={75} />
             </a>
           </Link>
         </div>
@@ -191,6 +191,7 @@ export default function Layout({ children }) {
                   <Link href="https://twitter.com/onori27">
                     <a className={styles.s_logos}>
                       <Image
+                        alt=""
                         src="/socialMedia_logos/twitter.png"
                         width={45}
                         height={45}
@@ -200,6 +201,7 @@ export default function Layout({ children }) {
                   <Link href="https://www.linkedin.com/in/osamanori/">
                     <a className={styles.s_logos}>
                       <Image
+                        alt=""
                         src="/socialMedia_logos/linkedin.png"
                         width={45}
                         height={45}
@@ -209,6 +211,7 @@ export default function Layout({ children }) {
                   <Link href="https://github.com/Harsual">
                     <a className={styles.s_logos}>
                       <Image
+                        alt=""
                         src="/socialMedia_logos/github.png"
                         width={45}
                         height={45}

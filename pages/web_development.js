@@ -20,10 +20,16 @@ export default function web_development() {
         </div>
       </div>
       <div className={styles.main}>
-        <a href="/" target="_blank" className={styles.container1}>
+        <a
+          href="/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.container1}
+        >
           <div className={styles.container1}>
             <div className={styles.page_image_container}>
               <Image
+                alt=""
                 src="/photos/nextjs-logo.jpg"
                 layout="fill"
                 objectFit="cover"
@@ -53,6 +59,7 @@ export default function web_development() {
           </div>
         </a>
         <a
+          rel="noopener noreferrer"
           href="https://www.greenplatecars.com/"
           target="_blank"
           className={styles.container2}
@@ -73,6 +80,7 @@ export default function web_development() {
             </div>
             <div className={styles.page_image_container}>
               <Image
+                alt=""
                 src="/photos/wordpress.jpg"
                 layout="fill"
                 objectFit="cover"

@@ -25,6 +25,7 @@ export default function education() {
         <div className={styles.container1}>
           <div className={styles.page_image_container}>
             <Image
+              alt=""
               src="/photos/languages.jpg"
               layout="fill"
               objectFit="cover"
@@ -68,6 +69,7 @@ export default function education() {
           </div>
           <div className={styles.page_image_container}>
             <Image
+              alt=""
               src="/photos/office.jpg"
               layout="fill"
               objectFit="cover"
@@ -84,6 +86,7 @@ export default function education() {
         <div className={styles.container1}>
           <div className={styles.page_image_container}>
             <Image
+              alt=""
               src="/photos/Adobe.jpg"
               layout="fill"
               objectFit="cover"

@@ -26,12 +26,14 @@ export default function education() {
       </div>
       <div className={styles.main}>
         <a
+          rel="noopener noreferrer"
           href="https://www.mun.ca"
           target="_blank"
           className={styles.container1}
         >
           <div className={styles.page_image_container}>
             <Image
+              alt=""
               src="/photos/mun.jpg"
               layout="fill"
               objectFit="cover"
@@ -57,6 +59,7 @@ export default function education() {
         </a>
 
         <a
+          rel="noopener noreferrer"
           href="https://en.ankara.edu.tr/"
           target="_blank"
           className={styles.container2}
@@ -77,6 +80,7 @@ export default function education() {
             </div>
             <div className={styles.page_image_container}>
               <Image
+                alt=""
                 src="/photos/ankara_university.jpg"
                 layout="fill"
                 objectFit="cover"
