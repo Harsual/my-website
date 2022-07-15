@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/contact": "pages/contact.js"
+  "/": "pages/index.js",
+  "/web_development": "pages/web_development.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/game_development": "pages/game_development.js"
 }
