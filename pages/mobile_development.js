@@ -29,7 +29,7 @@ export default function education() {
             <div className={styles.page_image_container}>
               <Image
                 alt=""
-                src="/photos/progress_App.jpg"
+                src="/photos/progress_app.jpg"
                 layout="fill"
                 objectFit="cover"
                 placeholder="blur"
