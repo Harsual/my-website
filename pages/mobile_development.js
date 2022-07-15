@@ -33,7 +33,7 @@ export default function education() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="blur"
-                blurDataURL="/photos/progress_App.jpg"
+                blurDataURL="/photos/progress_app.jpg"
                 className={styles.page_image2}
               ></Image>
               <div className={styles.banner}>
