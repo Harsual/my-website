@@ -21,7 +21,7 @@ export default function web_development() {
       </div>
       <div className={styles.main}>
         <a
-          href="/"
+          href=""
           rel="noopener noreferrer"
           target="_blank"
           className={styles.container1}
