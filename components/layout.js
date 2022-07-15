@@ -156,6 +156,7 @@ export default function Layout({ children }) {
           <div className={styles.ftd}>
             <text className={styles.ftd_text}>
               Working with motivated and hard working individuals is my passion
+              test test test
               <br></br>
             </text>
             <text className={styles.ftd_text}>
