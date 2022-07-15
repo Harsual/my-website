@@ -110,7 +110,7 @@ export default function education() {
                 layout="fill"
                 objectFit="contain"
                 placeholder="blur"
-                blurDataURL="/photos/javascript.jpg"
+                blurDataURL="/photos/javascript.png"
                 quality={30}
                 className={styles.page_image2}
               ></Image>
