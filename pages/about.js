@@ -62,7 +62,7 @@ export default function about() {
         <div className={styles.image_container}>
           <Image
             alt=""
-            src="/photos/website_image.jpg"
+            src={require("/photos/website_image.jpg")}
             layout="fill"
             objectFit="contain"
             placeholder="blur"
