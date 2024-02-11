@@ -60,14 +60,7 @@ export default function about() {
 
       <div className={styles.about_container}>
         <div className={styles.image_container}>
-          <Image
-            alt=""
-            src="/photos/website_image.jpg"
-            layout="fill"
-            objectFit="contain"
-            placeholder="blur"
-            blurDataURL="/photos/website_image.jpg"
-          ></Image>
+          
         </div>
         <div className={styles.about_paragraph}>
           <p>
