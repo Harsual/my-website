@@ -28,7 +28,7 @@ export default function Layout({ children }) {
         <nav className={styles.navbar}>
           {/*<a className={styles.navlogo}>[BrandLogo]</a>*/}
           <div className={styles.navlogo}>
-            <Link href="/">
+            <Link legacyBehavior href="/" >
               <a>
                 <Image src="/color_logo.png" alt="" width={75} height={75} />
               </a>
@@ -42,17 +42,17 @@ export default function Layout({ children }) {
             }
           >
             <li className={styles.navitem}>
-              <Link href="/" scroll={false}>
+              <Link legacyBehavior  href="/" scroll={false}>
                 <a className={styles.navlink}>Home</a>
               </Link>
             </li>
             <li className={styles.navitem}>
-              <Link href="/about" scroll={false}>
+              <Link legacyBehavior  href="/about" scroll={false}>
                 <a className={styles.navlink}>About</a>
               </Link>
             </li>
             <li className={styles.navitem}>
-              <Link href="/contact" scroll={false}>
+              <Link legacyBehavior href="/contact" scroll={false}>
                 <a className={styles.navlink}>Contact</a>
               </Link>
             </li>
@@ -88,16 +88,16 @@ export default function Layout({ children }) {
         <div className={styles.linkbox}>
           {/*className={router.pathname == "/" ? styles.active : ""}*/}
 
-          <Link href="/" scroll={false}>
+          <Link legacyBehavior href="/" scroll={false}>
             <a className={router.pathname == "/" ? styles.active : ""}>Home</a>
           </Link>
 
-          <Link href="/education" scroll={false}>
+          <Link legacyBehavior href="/education" scroll={false}>
             <a className={router.pathname == "/education" ? styles.active : ""}>
               Education
             </a>
           </Link>
-          <Link href="/web_development" scroll={false}>
+          <Link legacyBehavior href="/web_development" scroll={false}>
             <a
               className={
                 router.pathname == "/web_development" ? styles.active : ""
@@ -106,7 +106,7 @@ export default function Layout({ children }) {
               Web Development
             </a>
           </Link>
-          <Link href="/programming_languages" scroll={false}>
+          <Link legacyBehavior href="/programming_languages" scroll={false}>
             <a
               className={
                 router.pathname == "/programming_languages" ? styles.active : ""
@@ -115,7 +115,7 @@ export default function Layout({ children }) {
               Programming Languages
             </a>
           </Link>
-          <Link href="/game_development" scroll={false}>
+          <Link legacyBehavior href="/game_development" scroll={false}>
             <a
               className={
                 router.pathname == "/game_development" ? styles.active : ""
@@ -124,7 +124,7 @@ export default function Layout({ children }) {
               Game Development
             </a>
           </Link>
-          <Link href="/mobile_development" scroll={false}>
+          <Link legacyBehavior href="/mobile_development" scroll={false}>
             <a
               className={
                 router.pathname == "/mobile_development" ? styles.active : ""
@@ -133,7 +133,7 @@ export default function Layout({ children }) {
               Mobile Development
             </a>
           </Link>
-          <Link href="/other_skills" scroll={false}>
+          <Link legacyBehavior href="/other_skills" scroll={false}>
             <a
               className={
                 router.pathname == "/other_skills" ? styles.active : ""
@@ -146,7 +146,7 @@ export default function Layout({ children }) {
       </div>
       <footer className={styles.footer}>
         <div className={styles.logo}>
-          <Link href="/" scroll={false}>
+          <Link legacyBehavior href="/" scroll={false}>
             <a>
               <Image src="/White_logo.png" alt="" width={75} height={75} />
             </a>
@@ -162,7 +162,7 @@ export default function Layout({ children }) {
               Id love to build something great together.{" "}
             </text>
             <br></br>
-            <Link href="/contact" scroll={false}>
+            <Link legacyBehavior href="/contact" scroll={false}>
               <a>
                 <br></br>
                 <text className={styles.work_link}>Work with me </text>
@@ -188,7 +188,7 @@ export default function Layout({ children }) {
                   <text>Social</text>
                 </div>
                 <div className={styles.social}>
-                  <Link href="https://twitter.com/onori27">
+                  <Link legacyBehavior href="https://twitter.com/onori27">
                     <a className={styles.s_logos}>
                       <Image
                         alt=""
@@ -198,7 +198,7 @@ export default function Layout({ children }) {
                       />
                     </a>
                   </Link>
-                  <Link href="https://www.linkedin.com/in/osamanori/">
+                  <Link legacyBehavior href="https://www.linkedin.com/in/osamanori/">
                     <a className={styles.s_logos}>
                       <Image
                         alt=""
@@ -208,7 +208,7 @@ export default function Layout({ children }) {
                       />
                     </a>
                   </Link>
-                  <Link href="https://github.com/Harsual">
+                  <Link legacyBehavior href="https://github.com/Harsual">
                     <a className={styles.s_logos}>
                       <Image
                         alt=""

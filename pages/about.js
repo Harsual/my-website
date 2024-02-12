@@ -3,7 +3,7 @@ import styles from "../styles/About.module.css";
 import styles2 from "../styles/Sections.module.css";
 import router, { useRouter } from "next/router";
 import Image from "next/image";
-import personalImage from "../public/photos/website_image.jpg";
+
 
 export default function about() {
   /*document.addEventListener("DOMContentLoaded", function () {
