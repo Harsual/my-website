@@ -2,7 +2,6 @@ import Head from "next/head";
 import styles from "../styles/Sections.module.css";
 import router, { useRouter } from "next/router";
 import Image from "next/image";
-import munImage from "../public/photos/MUN.jpg";
 import { useEffect } from "react";
 
 export default function education() {
