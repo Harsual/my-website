@@ -6,17 +6,6 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 
 export default function Layout({ children }) {
-  //const [displayChildren, setDisplayChildren] = useState(children);
-  /*const [transitionStage, setTransitionStage] = useState("fadeOut");
-
-  useEffect(() => {
-    setTransitionStage("fadeIn");
-  }, []);
-
-  useEffect(() => {
-    if (children !== displayChildren) setTransitionStage("fadeOut");
-  }, [children, setDisplayChildren, displayChildren]);
-*/
   const [isOpen, setIsOpen] = useState(false);
   const openMenu = () => setIsOpen(!isOpen);
 
@@ -26,11 +15,10 @@ export default function Layout({ children }) {
     <div className={styles.page_container}>
       <header className={styles.header}>
         <nav className={styles.navbar}>
-          {/*<a className={styles.navlogo}>[BrandLogo]</a>*/}
           <div className={styles.navlogo}>
             <Link legacyBehavior href="/" >
               <a>
-                <Image src="/color_logo.png" alt="" width={75} height={75} />
+                <Image src="/color_logo2.png" alt="" width={75} height={75} />
               </a>
             </Link>
           </div>
@@ -71,22 +59,15 @@ export default function Layout({ children }) {
           </button>
         </nav>
       </header>
-      {/*<div className={styles.content_wrap}>*/}
+      
       <div
-      /*onTransitionEnd={() => {
-          if (transitionStage === "fadeOut") {
-            console.log("fading out");
-            setDisplayChildren(children);
-            setTransitionStage("fadeIn");
-          }
-        }}*/
       >
         {children}
       </div>
 
       <div className={styles.prefooter}>
         <div className={styles.linkbox}>
-          {/*className={router.pathname == "/" ? styles.active : ""}*/}
+          
 
           <Link legacyBehavior href="/" scroll={false}>
             <a className={router.pathname == "/" ? styles.active : ""}>Home</a>

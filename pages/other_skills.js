@@ -62,10 +62,7 @@ export default function education() {
               <li>Powerpoint</li>
               <li>Excel</li>
             </ul>
-            {/*<p>
-              Porficient in Office programs such as microsoft word, powerpoint,
-              and excel.
-            </p>*/}
+            
           </div>
           <div className={styles.page_image_container}>
             <Image

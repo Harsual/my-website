@@ -5,11 +5,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 export default function education() {
-  /*const pathname = window.location.pathname;*/
-
-  /*useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);*/
+  
   return (
     <div className={styles.container}>
       <div className={styles.header}>

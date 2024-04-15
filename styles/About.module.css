@@ -3,17 +3,26 @@
   src: url("../fonts/body.woff2");
 }
 
+@font-face {
+  font-family: 'cursive';
+  src: url('../fonts/DancingScript-VariableFont_wght.ttf')
+    /* Add additional src declarations for other font formats if needed */
+}
+
 .container {
   display: block;
   height: 100%;
   background: linear-gradient(0deg, white 50%, rgb(241, 241, 241) 50%);
 }
+
 .title {
   display: flex;
   justify-content: center;
   padding-top: 7rem;
   padding-bottom: 2rem;
 }
+
+
 
 .about_container {
   display: flex;
@@ -29,8 +38,12 @@
   text-justify: inter-word;
   font-size: 1.35rem;
   font-weight: lighter;
+  color: rgb(29, 34, 40);
 }
 
+.about_paragraph p {
+  margin-bottom: 1rem;
+}
 
 
 .image_container {
@@ -40,8 +53,7 @@
   overflow: hidden;
 }
 
-.image_container Image {
-}
+.image_container Image {}
 
 .title span {
   font-family: "wof";
@@ -51,14 +63,18 @@
   letter-spacing: 0.03em;
 }
 
+.quote {
+  font-family: 'cursive';
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 1000px) {
   .about_container {
     padding: 0;
   }
+
   .about_paragraph {
     width: 90%;
     text-align: left;
   }
-
-  
 }

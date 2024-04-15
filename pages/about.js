@@ -16,21 +16,59 @@ export default function about() {
 
       <div className={styles.about_container}>
         <div className={styles.image_container}>
+          <Image
+          alt=""
+          src="/photos/headshot.jpeg"
+          layout="fill"
+          objectFit="cover"
+          placeholder="blur"
+          blurDataURL="/photos/headshot.jpeg"
+          ></Image>
           
         </div>
         <div className={styles.about_paragraph}>
+          
           <p>
-            Hello, Im Osama Nori! Im a computer science graduate student, web
-            developer, and an all-round programmer looking to break into the
-            software development sector. Through my education and building
-            personal projects, I have experience with multiple programming
-            languages and frameworks. I thoroughly enjoy building apps and
-            websites that tackle challenges faced in everyday life. Ive worked
-            as a web-developer and interned as an android app developer after
-            getting my bachelors degree in computer engineering. While my
-            professional experience is limited, I have developed key skills and
-            attributes that will ensure my development and success.
+          Hello website visitor,
           </p>
+
+
+          <p>
+          My name is Osama Nori. I am a Computer Engineer, Software Engineer and Web Developer. Experienced Java and Javascript developer. Knowledgable in python, R, and C++.
+          </p>
+
+          <p>
+          Creator of Yemenflix and the game Continuous.
+          </p>
+
+          <p>
+          Figuring out ways to innovate and excel through hard work coupled with efficiency.
+          Determined to make something great and making an impact.
+          </p>
+
+          <p>
+          I love coding, solving problems, and learning how things work from A to Z.
+          </p>
+
+          <p style={{ marginTop: "3rem" }}>
+          <span className= {styles.quote}> “Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.” </span>
+              - Paul J Meyers
+          </p>
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+          
         </div>
       </div>
     </div>

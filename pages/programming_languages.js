@@ -4,7 +4,7 @@ import router, { useRouter } from "next/router";
 import Image from "next/image";
 
 export default function education() {
-  /*const pathname = window.location.pathname;*/
+  
 
   return (
     <div className={styles.container}>
@@ -49,12 +49,6 @@ export default function education() {
                   Used languages in many university assignments and projects.
                 </li>
               </ul>
-              {/*<p>
-              {" "}
-              Have a strong grasp of C programming languages and object oriented
-              programming in general. Have used these languages in many
-              university assignments and projects.
-            </p>*/}
             </div>
           </div>
         </a>
@@ -77,12 +71,6 @@ export default function education() {
                   in MySQL database{" "}
                 </li>
               </ul>
-              {/*<p>
-              Have developed big projects using java. I developed a local
-              streaming application using Java with android studio IDE. I also
-              developed a tool that automatically adds movies to the database
-              with correct information when the video file is added.
-            </p>*/}
             </div>
             <div className={styles.page_image_container}>
               <Image
@@ -133,12 +121,7 @@ export default function education() {
                 <p>Cross platform app development:</p>
                 <li>React Native</li>
               </ul>
-              {/*<p>
-              {" "}
-              Learnt javascript mainly for web development. This website is
-              built on next js using javascript. I also use javascript to
-              develop cross platform mobile applications using react native.
-            </p>*/}
+             
             </div>
           </div>
         </a>

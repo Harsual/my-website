@@ -1,8 +1,3 @@
-/*@font-face {
-  font-family: "wof";
-  src: url("../fonts/file.woff2");
-}*/
-
 .container {
   min-height: 100vh;
   /*padding: 0 0.5rem;*/
@@ -167,14 +162,16 @@
 }
 
 @media (max-width: 1000px) {
-  .container{
+  .container {
     margin: 0 0;
   }
+
   .imageGallery {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   .grid {
     width: 100%;
     flex-direction: column;
@@ -183,12 +180,14 @@
   .img_1 {
     min-height: auto;
   }
+
   .img_5 {
     min-height: auto;
   }
+
   .title {
     /*line-height: 1.15;*/
     margin: 2rem;
-    
+
   }
 }

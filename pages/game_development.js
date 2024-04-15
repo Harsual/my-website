@@ -75,12 +75,6 @@ export default function education() {
               <li>3D game development</li>
               <li>3D animation</li>
             </ul>
-            {/*<p>
-              Have built different prototypes and gameplay ideas using the
-              blueprint feature of unreal. I learnt different aspects of 3d game
-              development such as calculating vectors, terrain creation, and 3d
-              based animations.
-            </p>*/}
           </div>
           <div className={styles.page_image_container}>
             <Image

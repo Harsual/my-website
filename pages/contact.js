@@ -25,28 +25,7 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    /*const formData = new FormData();
-    Object.entries(query).forEach(([key, value]) => {
-      formData.append(key, value);
-    });
-
-    axios
-      .post(GETFORM_FORM_ENDPOINT, formData, {
-        headers: { Accept: "application/json" },
-      })
-      .then(function (response) {
-        setFormStatus(true);
-        setQuery({
-          name: "",
-          company: "",
-          email: "",
-          message: "",
-        });
-        console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });*/
+  
     setFormStatus(true);
   };
 

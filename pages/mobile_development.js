@@ -4,7 +4,7 @@ import router, { useRouter } from "next/router";
 import Image from "next/image";
 
 export default function education() {
-  /*const pathname = window.location.pathname;*/
+  
 
   return (
     <div className={styles.container}>
@@ -46,12 +46,6 @@ export default function education() {
                 <li>Created app to track progress for different goals</li>
                 <li>cross-platform programming</li>
               </ul>
-              {/*<p>
-              {" "}
-              Created a productivity app to track my progress in improving
-              different aspects of life. Learnt a lot of useful information
-              regarding multiplatform programming.
-            </p>*/}
             </div>
           </div>
         </a>
@@ -71,16 +65,7 @@ export default function education() {
                 <li>LAN movie streaming application</li>
                 <li>Personalized movie Cataloging Application</li>
               </ul>
-              {/*<p>
-              I have more experience in android development as I made multiple
-              apps using Java and android studio IDE. One of the apps was a
-              movie list app where movies are listed based on my personal
-              preference for them, (rated from 0 to 10). It utilized a specific
-              algorithm to push some movies on top and as time goes by some to
-              the bottom of that list. For my graduation project I also
-              developed a movie streaming application where movies are streamed
-              using a local network server.
-            </p>*/}
+              
             </div>
             <div className={styles.page_image_container}>
               <Image
