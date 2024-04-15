@@ -16,9 +16,9 @@ export default function Layout({ children }) {
       <header className={styles.header}>
         <nav className={styles.navbar}>
           <div className={styles.navlogo}>
-            <Link legacyBehavior href="/" >
+            <Link legacyBehavior href="/">
               <a>
-                <Image src="/color_logo2.png" alt="" width={75} height={75} />
+                <Image src="/color_logo.png" alt="" width={75} height={75} />
               </a>
             </Link>
           </div>
@@ -30,12 +30,12 @@ export default function Layout({ children }) {
             }
           >
             <li className={styles.navitem}>
-              <Link legacyBehavior  href="/" scroll={false}>
+              <Link legacyBehavior href="/" scroll={false}>
                 <a className={styles.navlink}>Home</a>
               </Link>
             </li>
             <li className={styles.navitem}>
-              <Link legacyBehavior  href="/about" scroll={false}>
+              <Link legacyBehavior href="/about" scroll={false}>
                 <a className={styles.navlink}>About</a>
               </Link>
             </li>
@@ -59,16 +59,11 @@ export default function Layout({ children }) {
           </button>
         </nav>
       </header>
-      
-      <div
-      >
-        {children}
-      </div>
+
+      <div>{children}</div>
 
       <div className={styles.prefooter}>
         <div className={styles.linkbox}>
-          
-
           <Link legacyBehavior href="/" scroll={false}>
             <a className={router.pathname == "/" ? styles.active : ""}>Home</a>
           </Link>
@@ -179,7 +174,10 @@ export default function Layout({ children }) {
                       />
                     </a>
                   </Link>
-                  <Link legacyBehavior href="https://www.linkedin.com/in/osamanori/">
+                  <Link
+                    legacyBehavior
+                    href="https://www.linkedin.com/in/osamanori/"
+                  >
                     <a className={styles.s_logos}>
                       <Image
                         alt=""
