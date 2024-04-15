@@ -4,8 +4,6 @@ import router, { useRouter } from "next/router";
 import Image from "next/image";
 
 export default function education() {
-  
-
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -65,7 +63,6 @@ export default function education() {
                 <li>LAN movie streaming application</li>
                 <li>Personalized movie Cataloging Application</li>
               </ul>
-              
             </div>
             <div className={styles.page_image_container}>
               <Image
