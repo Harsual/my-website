@@ -4,8 +4,6 @@ import router, { useRouter } from "next/router";
 import Image from "next/image";
 
 export default function education() {
-  
-
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -75,11 +73,11 @@ export default function education() {
             <div className={styles.page_image_container}>
               <Image
                 alt=""
-                src="/photos/java.png"
+                src="/photos/Java.png"
                 layout="fill"
                 objectFit="cover"
                 placeholder="blur"
-                blurDataURL="/photos/java.png"
+                blurDataURL="/photos/Java.png"
                 quality={40}
                 className={styles.page_image2}
               ></Image>
@@ -100,11 +98,11 @@ export default function education() {
             <div className={styles.page_image_container}>
               <Image
                 alt=""
-                src="/photos/javascript.png"
+                src="/photos/Javascript.png"
                 layout="fill"
                 objectFit="contain"
                 placeholder="blur"
-                blurDataURL="/photos/javascript.png"
+                blurDataURL="/photos/Javascript.png"
                 quality={30}
                 className={styles.page_image2}
               ></Image>
@@ -121,7 +119,6 @@ export default function education() {
                 <p>Cross platform app development:</p>
                 <li>React Native</li>
               </ul>
-             
             </div>
           </div>
         </a>
