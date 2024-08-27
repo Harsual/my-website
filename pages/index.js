@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title> Osama Nori Portfolio Website</title>
         <meta name="description" content="website"></meta>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/color_logo.png" />
       </Head>
 
       <h1 className={styles.title}>Osama Nori Portfolio Website</h1>
