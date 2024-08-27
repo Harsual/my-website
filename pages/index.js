@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,9 +12,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className={styles.title}>Welcome To My Portfolio Website</h1>
+      <h1 className={styles.title}>Osama Nori Portfolio Website</h1>
+      <h2 className={styles.note}>
+        Built from scratch in React and Next. Not a template. Inspired by
+        corporate and functional designs. Stock photo rights belong to their
+        respective owners.
+      </h2>
 
-     
       <div className={styles.imageGallery}>
         <Link legacyBehavior href="/education" scroll={false}>
           <a className={styles.img_1}>
@@ -47,11 +50,7 @@ export default function Home() {
             <text>Other Skills</text>
           </a>
         </Link>
-
-       
       </div>
     </div>
-
-    
   );
 }

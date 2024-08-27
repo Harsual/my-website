@@ -30,7 +30,7 @@
 }
 
 .title {
-  margin: 4rem 0;
+  /* margin: 4rem 0; */
   margin-left: 5rem;
   /*line-height: 1.15;*/
   font-family: "wof";
@@ -57,6 +57,14 @@
   flex-wrap: wrap;
   max-width: 800px;
   /*margin-top: 3rem;*/
+}
+
+.note{
+  font-size: 0.9rem;
+  font-weight: 400;
+  align-self: flex-start;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
 }
 
 .logo {
@@ -187,7 +195,11 @@
 
   .title {
     /*line-height: 1.15;*/
-    margin: 2rem;
+    margin-left: 2rem;
 
+  }
+
+  .note{
+    margin-left: 2rem;
   }
 }
