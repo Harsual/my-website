@@ -6,11 +6,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
+      {/* <Head>
         <title> Osama Nori Portfolio Website</title>
         <meta name="description" content="website"></meta>
-        <link rel="icon" href="/color_logo.png" />
-      </Head>
+        <link rel="icon" href="/color_logo.png" type="image/png" />
+      </Head> */}
 
       <h1 className={styles.title}>Osama Nori Portfolio Website</h1>
       <h2 className={styles.note}>

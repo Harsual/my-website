@@ -2,10 +2,17 @@ import "../styles/globals.css";
 import Layout from "../components/layout";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps, router }) {
   return (
     <Layout>
+      <Head>
+        <title> Osama Nori Portfolio Website</title>
+        <meta name="description" content="website"></meta>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <AnimatePresence
         mode="wait"
         initial={false}
