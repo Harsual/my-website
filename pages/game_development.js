@@ -23,7 +23,8 @@ export default function education() {
       <div className={styles.main}>
         <a
           rel="noopener noreferrer"
-          href="https://play.google.com/store/apps/details?id=com.OsamaNori.Continuous&hl=us&gl=US"
+          //href="https://play.google.com/store/apps/details?id=com.OsamaNori.Continuous&hl=us&gl=US"
+          href="https://apkpure.com/continuous/com.OsamaNori.Continuous"
           target="_blank"
           className={styles.container1}
         >
@@ -78,7 +79,7 @@ export default function education() {
           </div>
           <div className={styles.page_image_container}>
             <Image
-            alt=""
+              alt=""
               src="/photos/unreal.jpg"
               layout="fill"
               objectFit="cover"
